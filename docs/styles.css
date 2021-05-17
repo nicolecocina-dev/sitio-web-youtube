@@ -1,0 +1,93 @@
+.yellow {
+    background-color: yellow;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.banner {
+    background-color: aquamarine;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg);
+    background-size: cover;
+}
+
+header nav {
+    background-color: transparent;
+}
+
+.myimg100 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.myimg200 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cattegorie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* html:not([data-scroll='0']) a {
+    font-size: 30px;
+} */
+
+html:not([data-scroll='0']) header nav {
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; */
+    background-color: blueviolet;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, .5);
+}
+
+#dulces {
+    background-color: pink;
+}
+
+#carusel {
+    background-color: coral;
+}
+
+#salados {
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5596z2BCR9KmT1KeRBrOQa/4070fd4e2f1a13f71c2c46afeb18e41c/shutterstock_451077043-hero1.jpg);
+    background-size: cover;
+}
+
+section {
+    /* padding: 5% 0%; */
+}
+
+.space {
+    padding: 1rem 0;
+}
+
+.callout_title {
+    line-height: .83;
+    font-size: 3.25rem;
+    letter-spacing: .0119em;
+}
+
+.callout_btn {
+    color: #09009a;
+    border-color: #fff;
+    background: #fff;
+    margin: 40px 0px;
+    padding: 20px;
+}
